@@ -1,0 +1,15 @@
+{
+    "name": "com.citrix.cordova.testapp",
+    "displayName": "CordovaTestApp",
+    "version": "20.11.0",
+    "description": "A sample Apache Cordova application to test Citrix Endpoint Management's MicroVPN Cordova Plugin.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "ecosystem:cordova"
+    ],
+    "author": "Citrix Systems, Inc.",
+    "license": "Copyright (c) Citrix Systems, Inc.\nAll rights reserved.\n\nUse and support of this software is governed by the terms\nand conditions of the software license agreement and support\npolicy of Citrix Systems, Inc. and/or its subsidiaries.\n"
+}
