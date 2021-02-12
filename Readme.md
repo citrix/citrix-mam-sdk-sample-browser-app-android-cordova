@@ -1,6 +1,6 @@
 ## Description
 
-This repository contains the Android Java source code for a sample browser app that uses the MAM SDKs for endpoint management.  It does not contain the [MAM SDK](https://docs.citrix.com/en-us/mdx-toolkit/mam-sdk-overview.html) libraries themselves, which are downloaded separately.
+This repository contains the Android Cordova source code for a sample browser app that uses the MAM SDKs for endpoint management.  It does not contain the [MAM SDK](https://docs.citrix.com/en-us/mdx-toolkit/mam-sdk-overview.html) libraries themselves, which are downloaded separately.
 
 ## Download
 
