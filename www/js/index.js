@@ -120,7 +120,7 @@ var app = {
 		let fail = status.querySelector('.fail');
 
 		let iframe = document.createElement('iframe');
-		iframe.src = 'http://testweb.cemmobile.ctx';
+		iframe.src = 'https://www.citrix.com';
 		iframe.height = '25%'
 		iframe.width = '90%'
 		parentElement.appendChild(iframe);
@@ -145,8 +145,8 @@ const expectedJson = {
 
 const loadCitrix = function() { loadInAppBrowser('https://www.citrix.com'); }
 const loadFacebook = function() { loadInAppBrowser('https://facebook.com'); }
-const loadHttpTestWeb = function() { loadInAppBrowser('http://testweb.cemmobile.ctx'); }
-const loadHttpsTestWeb = function() { loadInAppBrowser('https://testweb.cemmobile.ctx'); }
+const loadHttpTestWeb = function() { loadInAppBrowser('https://developer.cloud.com'); }
+const loadHttpsTestWeb = function() { loadInAppBrowser('https://google.com'); }
 
 const target = '_blank';
 const options = '';
