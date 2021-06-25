@@ -1,7 +1,7 @@
 {
     "name": "com.citrix.cordova.testapp",
     "displayName": "CordovaTestApp",
-    "version": "20.11.0",
+    "version": "21.6.0",
     "description": "A sample Apache Cordova application to test Citrix Endpoint Management's MicroVPN Cordova Plugin.",
     "main": "index.js",
     "scripts": {
