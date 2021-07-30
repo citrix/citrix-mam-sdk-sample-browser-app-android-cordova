@@ -1,7 +1,7 @@
 {
     "name": "com.citrix.cordova.testapp",
     "displayName": "CordovaTestApp",
-    "version": "21.6.0",
+    "version": "21.7.0",
     "description": "A sample Apache Cordova application to test Citrix Endpoint Management's MicroVPN Cordova Plugin.",
     "main": "index.js",
     "scripts": {
@@ -11,5 +11,16 @@
         "ecosystem:cordova"
     ],
     "author": "Citrix Systems, Inc.",
-    "license": "Copyright (c) Citrix Systems, Inc.\nAll rights reserved.\n\nUse and support of this software is governed by the terms\nand conditions of the software license agreement and support\npolicy of Citrix Systems, Inc. and/or its subsidiaries.\n"
+    "license": "Copyright (c) Citrix Systems, Inc.\nAll rights reserved.\n\nUse and support of this software is governed by the terms\nand conditions of the software license agreement and support\npolicy of Citrix Systems, Inc. and/or its subsidiaries.\n",
+    "devDependencies": {
+        "@citrix/cordova-plugin-android-mvpn": "^21.7.0",
+        "cordova-android": "^9.1.0",
+        "cordova-plugin-whitelist": "^1.3.5"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {},
+            "@citrix/cordova-plugin-android-mvpn": {}
+        }
+    }
 }
